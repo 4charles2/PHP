@@ -1,4 +1,4 @@
-<php echo realpath('index.php'); ?>
+<php echo realpath('index.php'); //Fonction pour afficher le chemin absoule du fichier fournie en parametre?>
 <?php
 if (isset($_POST['login']) AND isset($_POST['pass']))
 {
